@@ -4,8 +4,77 @@ Primary Color (Light Blue): #b7d1da;
 Secondary Color (Light Green): #697268;
 */
 body {
-  background-color: lightgrey;
+  background-color: #ffffff;
 }
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+img {
+  width: 100%;
+}
+a {
+  color: #b7d1da;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: #ff7f50;
+}
+a:hover {
+  color: #b7d1da;
+  text-decoration: underline;
+}
+a:active {
+  color: #994c30;
+}
+.button {
+  display: inline-block;
+  background-color: #697268;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #95a3a4;
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button:active{
+  background-color: #4e5340;
+}
+.button.contact {
+  background-color: transparent;
+  color: #697268;
+  text-transform: uppercase;
+  border: 2px solid #697268;
+}
+.button.contact:hover {
+  background-color: #697268;
+  color: #ffffff;
 }
