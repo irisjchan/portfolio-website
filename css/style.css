@@ -71,9 +71,9 @@ a:active {
 }
 .button.contact {
   background-color: transparent;
-  color: #697268;
+  color: #ffffff;
   text-transform: uppercase;
-  border: 2px solid #697268;
+  border: 2px solid #ffffff;
 }
 .button.contact:hover {
   background-color: #697268;
@@ -115,11 +115,12 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #b7d1da;
+  color: #ffffff;
 }
 nav > ul > li > a:visited {
   color: #ffffff;
 }
+/* main styling */
 #hero {
   background-color: #697268;
   padding: 20px 0;
@@ -128,4 +129,29 @@ nav > ul > li > a:visited {
 }
 main {
   padding-top: 100px;
+}
+/* footer styling */
+#contact {
+  background-color: #697268;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#contact h2 {
+  text-align: center;
+}
+#contact p {
+  text-align: center;
+}
+.socialmedia {
+  padding: 15 15px;
+  text-align: center;
+}
+.socialmedia > ul {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+}
+.socialmedia > ul > li {
+  display: inline-block;
 }
