@@ -3,10 +3,11 @@ Colors used:
 Primary Color (Light Blue): #b7d1da;
 Secondary Color (Light Green): #697268;
 */
-body {
-  background-color: #ffffff;
+* {
+  box-sizing: border-box;
 }
 body {
+  background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -42,7 +43,7 @@ a {
   font-weight: bold;
 }
 a:visited {
-  color: #ff7f50;
+  color: #ffffff;
 }
 a:hover {
   color: #b7d1da;
@@ -66,7 +67,7 @@ a:active {
   text-decoration: none;
 }
 .button:active{
-  background-color: #4e5340;
+  background-color: #000000;
 }
 .button.contact {
   background-color: transparent;
@@ -77,4 +78,54 @@ a:active {
 .button.contact:hover {
   background-color: #697268;
   color: #ffffff;
+}
+/* Layout styling */
+header {
+  background-color: #697268;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  position: fixed;
+  width: 100%;
+}
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0;
+}
+#work .row {
+  padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+}
+#hero h1 {
+  text-align: center;
+}
+.logo {
+  max-width: 250px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #b7d1da;
+}
+nav > ul > li > a:visited {
+  color: #ffffff;
+}
+#hero {
+  background-color: #697268;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+main {
+  padding-top: 100px;
 }
