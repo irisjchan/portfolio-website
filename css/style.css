@@ -114,6 +114,8 @@ header {
 .logo {
   max-width: 250px;
   text-transform: uppercase;
+  margin-top: 20px;
+  display: inline-block;
 }
 nav > ul {
   list-style-type: none;
