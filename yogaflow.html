@@ -10,19 +10,23 @@
     <meta name="author" content="Iris Chan">
     <meta name="description" content="About: UI/UX Design, Graphic Design & Digital Marketing, Story, Resume, Relevant Skills and Tools Used">
     <title>User Interface Design Project: Yoga Flow, iOS and Android Mobile App Design</title>
+    <script src="https://kit.fontawesome.com/d023937796.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- For the header -->
 	<header>
     <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
 			<a href="index.html" class="logo">Iris Chan</a>
 			<nav>
         <ul>
 				<li><a href="index.html">Work</a></li>
 				<li><a href="about.html" >About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
       </ul>
 			</nav>
+    </div>
     </div>
   </header>
     <!-- For the hero section -->

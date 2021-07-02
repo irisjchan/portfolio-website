@@ -84,8 +84,7 @@ a:active {
 /* Layout styling */
 header {
   background-color: #697268;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   position: fixed;
   width: 100%;
@@ -112,7 +111,7 @@ header {
   color: #ffffff;
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
   text-transform: uppercase;
   margin-top: 20px;
   display: inline-block;
@@ -121,9 +120,7 @@ nav > ul {
   list-style-type: none;
   padding: 0;
   display: block;
-}
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -134,6 +131,33 @@ nav > ul > li > a {
 nav > ul > li > a:visited {
   color: #ffffff;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(192,192,192,0.3);
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 /* main styling */
 #hero {
   background-color: #697268;
@@ -143,7 +167,7 @@ nav > ul > li > a:visited {
   text-align: center
 }
 main {
-  padding-top: 100px;
+  padding-top: 58px;
 }
 /* footer styling */
 #contact {
@@ -204,6 +228,22 @@ Medium devices (640px and larger)
   }
   .logo {
   align-items: center;
+  max-width: 150px;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+.navtoggle li:last-child {
+  display: none;
+  }
+  nav > ul {
+  margin: 1em 0;
+  }
+  main {
+    padding-top: 100px;
   }
 }
 /* ==============================
