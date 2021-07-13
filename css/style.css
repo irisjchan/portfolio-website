@@ -120,10 +120,10 @@ header {
   margin-top: 20px;
   display: inline-block;
 }
-#logo a {
+#myNavtoggle a {
   color: #ffffff;
 }
-#logo a:visited {
+#myNavtoggle a:visited {
   color: #ffffff;
 }
 nav > ul {
