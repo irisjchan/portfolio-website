@@ -38,19 +38,19 @@ img {
   width: 100%;
 }
 a {
-  color: #b7d1da;
+  color: #697268;
   text-decoration: none;
   font-weight: bold;
 }
 a:visited {
-  color: #ffffff;
+  color: #4A5D48;
 }
 a:hover {
-  color: #b7d1da;
+  color: #839082;
   text-decoration: underline;
 }
 a:active {
-  color: #994c30;
+  color: #839082;
 }
 .button {
   display: inline-block;
@@ -66,9 +66,13 @@ a:active {
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
+  color: #ffffff;
 }
 .button:active{
   background-color: #000000;
+}
+.button:visited {
+  color: #ffffff;
 }
 .button.contact {
   background-color: transparent;
@@ -85,7 +89,7 @@ a:active {
 header {
   background-color: #697268;
   padding: 10px 0 4px;
-  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.3);
   position: fixed;
   width: 100%;
 }
@@ -116,6 +120,12 @@ header {
   margin-top: 20px;
   display: inline-block;
 }
+#logo a {
+  color: #ffffff;
+}
+#logo a:visited {
+  color: #ffffff;
+}
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -140,7 +150,7 @@ nav > ul > li > a:visited {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 12px;
   font-size: 20px;
   padding-right: 0;
 }
@@ -178,12 +188,14 @@ main {
 }
 #contact h2 {
   text-align: center;
+  color: #ffffff;
 }
 #contact p {
   text-align: center;
+  color: #ffffff;
 }
 .socialmedia {
-  padding: 15 15px;
+  padding: 15px 15px;
   text-align: center;
 }
 .socialmedia > ul {
