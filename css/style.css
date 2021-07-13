@@ -118,6 +118,7 @@ header {
   max-width: 150px;
   text-transform: uppercase;
   margin-top: 20px;
+  margin-bottom: 10px;
   display: inline-block;
 }
 #myNavtoggle a {
